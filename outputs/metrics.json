@@ -1,0 +1,58 @@
+{
+  "data": {
+    "non_fraud_count": 284315,
+    "fraud_count": 492,
+    "fraud_ratio": 0.001727485630620034
+  },
+  "IsolationForest": {
+    "precision": {
+      "0": 0.9997080877925963,
+      "1": 0.03812180381218038
+    },
+    "recall": {
+      "0": 0.9636149409116489,
+      "1": 0.8367346938775511
+    },
+    "f1": {
+      "0": 0.9813297515110813,
+      "1": 0.07292129835482436
+    },
+    "confusion_matrix": [
+      [
+        54795,
+        2069
+      ],
+      [
+        16,
+        82
+      ]
+    ],
+    "confusion_matrix_path": "outputs/confusion_matrix_IsolationForest.png"
+  },
+  "SMOTE_XGBoost": {
+    "precision": {
+      "0": 0.999771303919499,
+      "1": 0.7203389830508474
+    },
+    "recall": {
+      "0": 0.9994196679797411,
+      "1": 0.8673469387755102
+    },
+    "f1": {
+      "0": 0.9995954550251521,
+      "1": 0.7870370370370371
+    },
+    "confusion_matrix": [
+      [
+        56831,
+        33
+      ],
+      [
+        13,
+        85
+      ]
+    ],
+    "confusion_matrix_path": "outputs/confusion_matrix_SMOTE_XGBoost.png"
+  },
+  "runtime_seconds": 4.37
+}

@@ -1,0 +1,89 @@
+2025-09-29 12:54:36,728 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 12:54:36,728 - INFO - Arguments: csv=/full/path/to/creditcard.csv, seed=42, test_size=0.2
+2025-09-29 12:54:36,728 - INFO - Loading data from /full/path/to/creditcard.csv
+2025-09-29 12:54:36,728 - INFO - Error: [Errno 2] No such file or directory: '/full/path/to/creditcard.csv'
+2025-09-29 12:57:52,723 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 12:57:52,723 - INFO - Arguments: csv=/Users/bunty/Desktop/Desktop/Bunty/SRIHAS/Projects/Advanced Credit Card Fraud Detection /creditcard.csv, seed=42, test_size=0.2
+2025-09-29 12:57:52,723 - INFO - Loading data from /Users/bunty/Desktop/Desktop/Bunty/SRIHAS/Projects/Advanced Credit Card Fraud Detection /creditcard.csv
+2025-09-29 12:57:53,199 - INFO - Loaded 284807 samples with 31 features
+2025-09-29 12:57:53,199 - INFO - Class distribution:
+2025-09-29 12:57:53,199 - INFO -   Non-fraud: 284,315 (0.9983)
+2025-09-29 12:57:53,199 - INFO -   Fraud: 492 (0.0017)
+2025-09-29 12:57:53,199 - INFO -   Fraud ratio: 0.0017
+2025-09-29 12:57:53,199 - INFO - Preprocessing data...
+2025-09-29 12:57:53,208 - INFO - Preprocessing complete: dropped Time, scaled Amount
+2025-09-29 12:57:53,208 - INFO - Splitting data: 0.8/0.2 train/test
+2025-09-29 12:57:53,258 - INFO - Train set: 227845 samples
+2025-09-29 12:57:53,258 - INFO - Test set: 56962 samples
+2025-09-29 12:57:53,259 - INFO - Training IsolationForest baseline...
+2025-09-29 12:57:53,665 - INFO - IsolationForest training complete
+2025-09-29 12:57:53,665 - INFO - Training SMOTE + XGBoost...
+2025-09-29 12:57:53,857 - INFO - SMOTE applied: 454902 samples after resampling
+2025-09-29 12:57:56,726 - INFO - SMOTE + XGBoost training complete
+2025-09-29 12:57:56,726 - INFO - Evaluating IsolationForest...
+2025-09-29 12:57:57,283 - INFO - Saved confusion matrix: outputs/confusion_matrix_IsolationForest.png
+2025-09-29 12:57:57,283 - INFO - Evaluating SMOTE_XGBoost...
+2025-09-29 12:57:57,425 - INFO - Saved confusion matrix: outputs/confusion_matrix_SMOTE_XGBoost.png
+2025-09-29 12:57:57,470 - INFO - Pipeline completed in 4.70 seconds
+2025-09-29 12:57:57,470 - INFO - Artifacts saved to ./outputs/
+2025-09-29 12:57:57,470 - INFO - Error: unsupported format string passed to dict.__format__
+2025-09-29 13:02:56,915 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 13:02:56,916 - INFO - Arguments: csv=/Users/bunty/Desktop/Desktop/Bunty/SRIHAS/Projects/Advanced Credit Card Fraud Detection /creditcard.csv, seed=42, test_size=0.2
+2025-09-29 13:02:56,916 - INFO - Loading data from /Users/bunty/Desktop/Desktop/Bunty/SRIHAS/Projects/Advanced Credit Card Fraud Detection /creditcard.csv
+2025-09-29 13:02:57,430 - INFO - Loaded 284807 samples with 31 features
+2025-09-29 13:02:57,431 - INFO - Class distribution:
+2025-09-29 13:02:57,431 - INFO -   Non-fraud: 284,315 (0.9983)
+2025-09-29 13:02:57,431 - INFO -   Fraud: 492 (0.0017)
+2025-09-29 13:02:57,431 - INFO -   Fraud ratio: 0.0017
+2025-09-29 13:02:57,431 - INFO - Preprocessing data...
+2025-09-29 13:02:57,439 - INFO - Preprocessing complete: dropped Time, scaled Amount
+2025-09-29 13:02:57,439 - INFO - Splitting data: 0.8/0.2 train/test
+2025-09-29 13:02:57,484 - INFO - Train set: 227845 samples
+2025-09-29 13:02:57,484 - INFO - Test set: 56962 samples
+2025-09-29 13:02:57,485 - INFO - Training IsolationForest baseline...
+2025-09-29 13:02:57,927 - INFO - IsolationForest training complete
+2025-09-29 13:02:57,927 - INFO - Training SMOTE + XGBoost...
+2025-09-29 13:02:58,163 - INFO - SMOTE applied: 454902 samples after resampling
+2025-09-29 13:03:00,878 - INFO - SMOTE + XGBoost training complete
+2025-09-29 13:03:00,878 - INFO - Evaluating IsolationForest...
+2025-09-29 13:03:01,291 - INFO - Saved confusion matrix: outputs/confusion_matrix_IsolationForest.png
+2025-09-29 13:03:01,291 - INFO - Evaluating SMOTE_XGBoost...
+2025-09-29 13:03:01,476 - INFO - Saved confusion matrix: outputs/confusion_matrix_SMOTE_XGBoost.png
+2025-09-29 13:03:01,523 - INFO - Pipeline completed in 4.56 seconds
+2025-09-29 13:03:01,523 - INFO - Artifacts saved to ./outputs/
+2025-09-29 13:03:01,523 - INFO - Fraud Recall - IsolationForest: 0.8367
+2025-09-29 13:03:01,523 - INFO - Fraud Recall - SMOTE+XGBoost: 0.8673
+2025-09-29 13:06:12,401 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 13:06:12,402 - INFO - Arguments: csv=fraud_detection_ml/creditcard.csv, seed=42, test_size=0.2
+2025-09-29 13:06:12,402 - INFO - Loading data from fraud_detection_ml/creditcard.csv
+2025-09-29 13:06:12,402 - INFO - Error: [Errno 2] No such file or directory: 'fraud_detection_ml/creditcard.csv'
+2025-09-29 13:33:44,701 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 13:33:44,701 - INFO - Arguments: csv=fraud_detection_ml/creditcard.cs, seed=42, test_size=0.2
+2025-09-29 13:33:44,701 - INFO - Loading data from fraud_detection_ml/creditcard.cs
+2025-09-29 13:33:44,701 - INFO - Error: [Errno 2] No such file or directory: 'fraud_detection_ml/creditcard.cs'
+2025-09-29 13:33:51,658 - INFO - Starting Fraud Detection ML Pipeline
+2025-09-29 13:33:51,658 - INFO - Arguments: csv=fraud_detection_ml/creditcard.csv, seed=42, test_size=0.2
+2025-09-29 13:33:51,658 - INFO - Loading data from fraud_detection_ml/creditcard.csv
+2025-09-29 13:33:52,130 - INFO - Loaded 284807 samples with 31 features
+2025-09-29 13:33:52,132 - INFO - Class distribution:
+2025-09-29 13:33:52,132 - INFO -   Non-fraud: 284,315 (0.9983)
+2025-09-29 13:33:52,132 - INFO -   Fraud: 492 (0.0017)
+2025-09-29 13:33:52,132 - INFO -   Fraud ratio: 0.0017
+2025-09-29 13:33:52,132 - INFO - Preprocessing data...
+2025-09-29 13:33:52,142 - INFO - Preprocessing complete: dropped Time, scaled Amount
+2025-09-29 13:33:52,143 - INFO - Splitting data: 0.8/0.2 train/test
+2025-09-29 13:33:52,190 - INFO - Train set: 227845 samples
+2025-09-29 13:33:52,190 - INFO - Test set: 56962 samples
+2025-09-29 13:33:52,190 - INFO - Training IsolationForest baseline...
+2025-09-29 13:33:52,602 - INFO - IsolationForest training complete
+2025-09-29 13:33:52,603 - INFO - Training SMOTE + XGBoost...
+2025-09-29 13:33:52,768 - INFO - SMOTE applied: 454902 samples after resampling
+2025-09-29 13:33:55,627 - INFO - SMOTE + XGBoost training complete
+2025-09-29 13:33:55,627 - INFO - Evaluating IsolationForest...
+2025-09-29 13:33:55,886 - INFO - Saved confusion matrix: outputs/confusion_matrix_IsolationForest.png
+2025-09-29 13:33:55,886 - INFO - Evaluating SMOTE_XGBoost...
+2025-09-29 13:33:56,029 - INFO - Saved confusion matrix: outputs/confusion_matrix_SMOTE_XGBoost.png
+2025-09-29 13:33:56,079 - INFO - Pipeline completed in 4.37 seconds
+2025-09-29 13:33:56,079 - INFO - Artifacts saved to ./outputs/
+2025-09-29 13:33:56,079 - INFO - Fraud Recall - IsolationForest: 0.8367
+2025-09-29 13:33:56,079 - INFO - Fraud Recall - SMOTE+XGBoost: 0.8673

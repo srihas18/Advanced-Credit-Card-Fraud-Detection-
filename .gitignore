@@ -29,3 +29,4 @@ outputs/*
 # ===== IDE =====
 .vscode/
 .idea/
+fraud_detection_ml/creditcard.csv
